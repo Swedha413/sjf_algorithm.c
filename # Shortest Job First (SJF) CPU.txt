@@ -1,0 +1,31 @@
+# Shortest Job First (SJF) CPU Scheduling Algorithm
+## 📘 Description
+This project implements the Shortest Job First (SJF) CPU Scheduling Algorithm using the C programming language. 
+SJF is a non-preemptive scheduling algorithm where the process with the smallest burst time is executed first.
+
+## 🎯 Objective
+- To understand CPU scheduling in Operating Systems
+- To calculate Waiting Time and Turnaround Time
+- To compare SJF with FCFS scheduling
+
+## ⚙️ Algorithm
+1. Read number of processes
+2. Read burst time for each process
+3. Sort processes based on burst time (ascending order)
+4. Calculate waiting time
+5. Calculate turnaround time
+6. Display results and average times
+
+## 🧮 Formula Used
+- Waiting Time (WT) = Sum of burst times of previous processes  
+- Turnaround Time (TAT) = Burst Time + Waiting Time  
+
+## 🛠️ Language Used
+- C
+
+## 📂 Files
+- `sjf.c` – Source code
+- `README.md` – Project documentation
+
+## 📌 Conclusion
+SJF minimizes average waiting time compared to FCFS, but it may cause starvation for longer processes.
